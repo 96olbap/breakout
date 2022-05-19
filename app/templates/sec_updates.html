@@ -1,0 +1,13 @@
+ {% extends 'base.html' %} {% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p>{{location}} </p>
+            <p> {{postedAt}}</p>
+            <a class="details" href="{{url_for('details')}}">Details</a></li>
+
+
+        </div>
+    </div>
+</div>
+{% endblock %}
